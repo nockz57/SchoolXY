@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="94a78c26-e8bb-451b-96bc-dc41eecd9010" ChangeDateTime="04/03/2023 06:58:45">
+    <Property Name="ElementName" Value="[dbo].[Student].[Address]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Student]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="RegisteredDate" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="cdd1ab27-e854-43d4-bd70-6b2948f7e010" ChangeDateTime="04/03/2023 07:16:29">
+    <Property Name="ElementName" Value="[dbo].[Student].[RegisteredDate]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Student]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FirstName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="96b33268-628c-4484-bc9f-6af15d197de7" ChangeDateTime="04/03/2023 07:17:47">
+    <Property Name="ElementName" Value="[dbo].[Subject].[Name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Subject]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SubjectName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5a10dba7-9941-4f7f-920f-86105ebdf05e" ChangeDateTime="04/03/2023 07:27:02">
+    <Property Name="ElementName" Value="[dbo].[Student].[Gender]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Student]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="GenderId" />
+  </Operation>
+</Operations>
